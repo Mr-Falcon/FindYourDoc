@@ -1,0 +1,65 @@
+html {
+  height: 100vh;
+}
+
+html > body {
+  height: inherit;
+}
+
+div#root {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  padding: 0 15px;
+}
+
+/*************************************/
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #e3f2fd;
+  box-shadow: 0 1px 0 0 #e3f2fd;
+}
+
+input:not([type]):focus:not([readonly])+lable, input[type=text]:not(.browser-default):focus:not([readonly])+lable, input[type=password]:not(.browser-default):focus:not([readonly])+lable, input[type=email]:not(.browser-default):focus:not([readonly])+lable, input[type=url]:not(.browser-default):focus:not([readonly])+lable, input[type=time]:not(.browser-default):focus:not([readonly])+lable, input[type=date]:not(.browser-default):focus:not([readonly])+lable, input[type=datetime]:not(.browser-default):focus:not([readonly])+lable, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+lable, input[type=tel]:not(.browser-default):focus:not([readonly])+lable, input[type=number]:not(.browser-default):focus:not([readonly])+lable, input[type=search]:not(.browser-default):focus:not([readonly])+lable, textarea.materialize-textarea:focus:not([readonly]) {
+  color: #e3f2fd;
+}
+
+/*************************************/
+
+/*
+body {
+  display: flex;
+  flex-flow: column;
+  align-content: space-between;
+}
+
+footer {
+  top: auto;
+  flex: 0 1 auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  line-height: 2em;
+  padding: 0 1em;
+}
+
+.App {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  align-items: stretch;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */

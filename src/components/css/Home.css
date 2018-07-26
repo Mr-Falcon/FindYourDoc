@@ -1,0 +1,11 @@
+section {
+    color: black;
+    height: 100%;
+    padding: 2em 15px;
+}
+
+/* section.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
